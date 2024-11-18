@@ -1,0 +1,43 @@
+.articleform {
+  background-color: #f0f4f8;
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  font-family: 'Arial', sans-serif;
+}
+
+.articleform label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+  color: #2a2d34;
+}
+
+.articleform input, .articleform textarea {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 12px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  background: #fafafa;
+  transition: border-color 0.3s;
+}
+
+.articleform input:focus, .articleform textarea:focus {
+  border-color: #4ecca3;
+  outline: none;
+}
+
+.articleform button {
+  background-color: #4ecca3;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.articleform button:hover {
+  background-color: #3ba782;
+}
